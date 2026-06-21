@@ -13,23 +13,6 @@ A full-stack web application where users can register, browse stores, and submit
 | Database   | MySQL             | Data storage                         |
 | Auth       | JWT + bcrypt      | Login sessions & password hashing    |
 
-### Libraries Used
-
-**Backend**
-- `express` — Web server framework
-- `mysql2` — MySQL database driver
-- `bcryptjs` — Password hashing
-- `jsonwebtoken` — JWT authentication tokens
-- `express-validator` — Form validation
-- `cors` — Cross-origin requests
-- `dotenv` — Environment variables
-
-**Frontend**
-- `react` + `react-dom` — UI components
-- `react-router-dom` — Page routing
-- `axios` — HTTP requests to the API
-- `vite` — Fast development build tool
-
 ---
 ## Getting Started
 
@@ -37,15 +20,6 @@ A full-stack web application where users can register, browse stores, and submit
 
 1. Start MySQL on your machine (MySQL Workbench).
 2. Run the schema file to create the database and tables:
-
-**Option A — MySQL Workbench**
-- Open `database/schema.sql`
-- Click **Execute** (⚡) — this creates `store_rating_db` and all tables
-
-**Option B — Command line**
-```bash
-mysql -u root -p < database/schema.sql
-```
 
 ### Step 2: Set Up the Backend
 
